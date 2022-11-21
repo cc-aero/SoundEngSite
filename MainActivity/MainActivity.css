@@ -20,6 +20,8 @@ html{
     padding: .1rem;
     text-align: center;
     box-shadow: 6px 6px 20px grey;
+    padding-bottom: .4rem;
+    margin-bottom: 2.5rem;
 }
 
 #titletext{
@@ -33,6 +35,11 @@ html{
 
 
 }
+
+a{
+    margin: 10px;
+}
+
 a:link, a:visited{
     color: grey;
     text-decoration: none;
@@ -40,4 +47,51 @@ a:link, a:visited{
 
 a:hover, a:active{
     color: deeppink;
+}
+
+#titleheading{
+    color: #0c0c0c;
+    font-weight: bolder;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 40px;
+    row-gap: 30px;
+    column-count: 2;
+    flex-wrap: wrap;
+    padding: 10px;
+    grid-template-columns: repeat(2,auto);
+}
+
+.grid-item{
+    display: block;
+    background-color: whitesmoke;
+    border-radius: .6rem;
+    padding: .1rem;
+    text-align: center;
+    box-shadow: 6px 6px 20px grey;
+    height: 16rem;
+
+}
+
+#loginbutton{
+    font-size: large;
+    font-weight: bold;
+    margin: 2rem;
+    border: none;
+    padding: .2rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    border-radius: .2rem;
+    background-color: lightslategrey;
+}
+
+#loginbutton:hover, #loginbutton:active{
+    background-color: deeppink;
+    color: whitesmoke;
+}
+
+.contactfield{
+    margin-bottom: 1rem;
 }

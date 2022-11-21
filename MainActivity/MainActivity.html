@@ -6,17 +6,42 @@
     <title>Title</title>
     <!--Beginning of top bar-->
     <div id="topbar">
-        <h1 id="titletext">My Site</h1>
+        <h1 id="titletext"><a id="titleheading" href="MainActivity.html">Site</a></h1>
         <hr>
 
-        <div id="linkscontainer">
-            <a href="https://www.w3schools.com/">About Us</a>
-            <a href="https://www.w3schools.com/">M</a>
-        </div>
+        <nav id="linkscontainer">
+            <a href="AboutUs/AboutUs.html">About Us</a>
+            <a href="TheTeam/TheTeam.html">The Team</a>
+            <a href="Legal/Legal.html">Legal</a>
+            <a href="ContactUs/ContactUs.html">Contact Us</a>
+        </nav>
     </div>
     <!--End of top bar-->
 </head>
 <body>
-<h1>body text</h1>
+<!--Cards-->
+<div class="grid-container">
+    <div class="grid-item"> <!--Top Left-->
+        Random content blah blah blah
+    </div>
+
+    <div class="grid-item"> <!--Top Right-->
+        <form>
+            <h1>Log In</h1>
+            <input type="email" placeholder="Email" class="contactfield"><br>
+            <input type="password" placeholder="Password" class="contactfield"><br>
+            <input type="submit" value="Log In" id="loginbutton">
+        </form>
+    </div>
+
+    <div class="grid-item"> <!--Bottom Left-->
+        <img style="width: auto; height: inherit" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcommunicationsmanagement.co.uk%2F2017%2Fwp-content%2Fuploads%2F2018%2F06%2FBirmingham-City-University-latest-logo.png&f=1&nofb=1&ipt=dc273ac191a8e81eec0e6da2221eef417efe5d69b31461cb6146f47253a9d7a4&ipo=images">
+    </div>
+
+    <div class="grid-item"> <!--Bottom Right-->
+        Terms and conditions blah blah blah
+    </div>
+</div>
+<!--End of Cards-->
 </body>
 </html>
